@@ -39,10 +39,10 @@
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 
-(load "/usr/share/emacs/site-lisp/clang-format-14/clang-format.el")
+(load "clang-format.el")
 
 
-
+(global-set-key (kbd "C-x C-b") 'ibuffer)
 
 
 
